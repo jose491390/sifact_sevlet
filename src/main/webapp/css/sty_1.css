@@ -1,0 +1,41 @@
+.RegistroUsuarios{
+    display: flex;
+    background-color: rgb(103, 140, 241);
+    flex-direction: column;
+    width: 450px;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.RegistroUsuarios h2{
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.RegistroUsuarios label {
+    width: 100%;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: start;
+}
+
+.RegistroUsuarios input {
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+}
+
+.RegistroUsuarios select{
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+}
+
+.RegistroUsuarios button {
+    margin: 20px;
+}
