@@ -37,4 +37,16 @@ public class ControladoraPersistencia {
             Logger.getLogger(ControladoraPersistencia.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
+
+    public Producto traerProducto(int id) {
+        return productoJPA.findProducto(id);
+    }
+
+    public void editarProd(Producto prodEdit) {
+        try {
+            productoJPA.edit(prodEdit);
+        } catch (Exception ex) {
+            Logger.getLogger(ControladoraPersistencia.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
 }
