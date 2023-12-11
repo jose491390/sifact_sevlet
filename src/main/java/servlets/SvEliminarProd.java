@@ -43,7 +43,7 @@ public class SvEliminarProd extends HttpServlet {
         
         control.borrarProd(id);
         
-        response.sendRedirect("index.jsp");
+        response.sendRedirect("SvProductos");
     }
 
     
