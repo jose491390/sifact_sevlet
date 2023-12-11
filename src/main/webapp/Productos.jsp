@@ -153,7 +153,7 @@
                                                     </button>
                                                     <input type="hidden" name="id" value="<%=prod.getId()%>">
                                                 </form>
-                                                <form name="editar" action="SvEditarProd" method="post">
+                                                <form name="editar" action="SvEditarProd" method="get">
                                                     <button type="submit" class="btn btn-primary btn-user btn-block" style="margin-left: 5px;">
                                                         <i class="fas fa-pencil-alt"></i> EDITAR
                                                     </button>
