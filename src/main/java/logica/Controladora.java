@@ -30,6 +30,14 @@ public class Controladora {
     public void borrarProd(int id) {
         controladoraPersis.borrarProd(id);
     }
+
+    public Producto traeraproducto(int id) {
+        return controladoraPersis.traerProducto(id);
+    }
+
+    public void editarProd(Producto prodEdit) {
+       controladoraPersis.editarProd(prodEdit); 
+    }
     
     
     
